@@ -1,7 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  background-image: linear-gradient(#af67e9, #6565e7);
+  font-family: 'Kumbh Sans', sans-serif;
+  height: 46rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.card {
+  width: 330px;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  padding-bottom: 50px; }
+  .card__banner {
+    height: 110px;
+    background-image: url(./images/bg-pattern-mobile.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; }
+  .card__img {
+    position: absolute;
+    bottom: 20%;
+    right: 14%; }
+  .card__info {
+    width: 90%;
+    margin: 0 auto; }
+  .card__title {
+    color: #1d1e35;
+    font-size: 1.875rem;
+    font-weight: 700;
+    text-align: center; }
+  .card__toggle {
+    border-bottom: 1px solid #e7e7e9;
+    padding: calc(25px - 12px) 0; }
+  .card__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #4a4b5e;
+    font-weight: 400;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .card__button--active {
+      color: #1d1e35;
+      font-weight: 700; }
+  .card__arrow {
+    height: 100%;
+    transform: rotate(0deg);
+    transition: transform 0.3s linear; }
+    .card__arrow--active {
+      transform: rotate(180deg); }
+  .card__answer {
+    display: none;
+    height: 0;
+    transition: height 0.3s linear; }
+    .card__answer--active {
+      display: block;
+      height: 100%;
+      color: #787887;
+      line-height: 1.5;
+      margin-bottom: 0;
+      padding-left: 8px;
+      padding-right: 24px; }
+
 .attribution {
   font-size: 11px;
   text-align: center; }
   .attribution a {
-    color: #3e52a3; }
+    color: #1f39a3; }
 
 /*# sourceMappingURL=style.css.map */
