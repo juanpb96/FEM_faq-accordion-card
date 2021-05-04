@@ -38,12 +38,13 @@ body {
     margin: 0 auto; }
   .card__title {
     color: #1d1e35;
-    font-size: 1.875rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center; }
   .card__toggle {
     border-bottom: 1px solid #e7e7e9;
-    padding: calc(25px - 12px) 0; }
+    padding: calc(30px - 12px) 0;
+    margin: 0 8px; }
   .card__button {
     background: none;
     border: none;
@@ -51,9 +52,11 @@ body {
     color: #4a4b5e;
     font-weight: 400;
     width: 100%;
+    padding: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    transition: font-weight 0.15s ease-in, color 0.3s linear; }
     .card__button--active {
       color: #1d1e35;
       font-weight: 700; }
@@ -64,17 +67,16 @@ body {
     .card__arrow--active {
       transform: rotate(180deg); }
   .card__answer {
-    display: none;
-    height: 0;
-    transition: height 0.3s linear; }
+    max-height: 0;
+    margin: 0;
+    overflow: hidden;
+    color: #787887;
+    line-height: 1.5;
+    padding-right: 24px;
+    transition: max-height 0.3s ease-out; }
     .card__answer--active {
-      display: block;
-      height: 100%;
-      color: #787887;
-      line-height: 1.5;
-      margin-bottom: 0;
-      padding-left: 8px;
-      padding-right: 24px; }
+      max-height: 3.2rem;
+      margin-top: 10px; }
 
 .attribution {
   color: #FFF;
