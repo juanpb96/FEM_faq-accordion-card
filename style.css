@@ -136,6 +136,8 @@ body {
       margin: 60px auto 60px 20px; }
     .card__title {
       text-align: left;
-      margin-left: 8px; } }
+      margin-left: 8px; }
+    .card__button:hover {
+      color: #f47c57; } }
 
 /*# sourceMappingURL=style.css.map */

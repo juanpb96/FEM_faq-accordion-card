@@ -201,5 +201,9 @@ body {
             text-align: left;
             margin-left: 8px;
         }
+
+        &__button:hover {
+            color: $button-active-color;
+        }
     }
 }
