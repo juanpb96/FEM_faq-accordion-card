@@ -23,9 +23,10 @@ body {
 .card {
     width: 330px;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 0.75rem;
     padding-bottom: 50px;
+    box-shadow: 1px 5px 18px hsl(273, 55%, 25%);
 
     &__banner {
         height: 110px;
@@ -148,6 +149,10 @@ body {
 
 // Desktop styles
 @media only screen and (min-width: 1100px) {
+    .container {
+        height: 48rem;
+    }
+
     .card {
         width: 80%;
         max-width: 1000px;
