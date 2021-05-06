@@ -29,12 +29,12 @@ Users should be able to:
 
 Desktop view:
 
-![Solution preview](./Screenshot_Accordion-card-preview.png)
+![Solution preview](./design/Screenshot_Accordion-card-preview.png)
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
-- Live Site URL: [See live site here](https://your-live-site-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/html-5-scss-bem-and-flexbox-4yrA_iFW0)
+- Live Site URL: [See live site here](https://juanbonilla.me/FEM_faq-accordion-card/)
 
 ## My process
 
