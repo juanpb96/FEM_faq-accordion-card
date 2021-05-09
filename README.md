@@ -43,6 +43,7 @@ Desktop view:
 - Semantic HTML5 markup
 - CSS / SCSS custom properties
 - Flexbox
+- JavaScript
 - Mobile-first workflow
 - BEM Methodology
 
