@@ -64,14 +64,17 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: font-weight 0.15s ease-in, color 0.3s linear; }
+    transition: font-weight 0.15s ease-in, color 0.3s linear;
+    -webkit-transition: font-weight 0.15s ease-in, color 0.3s linear;
+    -webkit-tap-highlight-color: transparent; }
     .card__button--active {
       color: #1d1e35;
       font-weight: 700; }
   .card__arrow {
     height: 100%;
     transform: rotate(0deg);
-    transition: transform 0.3s linear; }
+    transition: transform 0.3s linear;
+    -webkit-transition: transform 0.3s linear; }
     .card__arrow--active {
       transform: rotate(180deg); }
   .card__answer {
@@ -81,7 +84,8 @@ body {
     color: #787887;
     line-height: 1.5;
     padding-right: 24px;
-    transition: max-height 0.3s ease-out, margin 0.3s ease-out; }
+    transition: max-height 0.3s ease-out, margin 0.3s ease-out;
+    -webkit-transition: max-height 0.3s ease-out, margin 0.3s ease-out; }
     .card__answer--active {
       max-height: 3.2rem;
       margin-top: 10px; }

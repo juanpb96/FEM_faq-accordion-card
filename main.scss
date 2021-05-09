@@ -85,6 +85,8 @@ body {
         justify-content: space-between;
         align-items: center;
         transition: font-weight 0.15s ease-in, color 0.3s linear;
+        -webkit-transition: font-weight 0.15s ease-in, color 0.3s linear;
+        -webkit-tap-highlight-color: transparent;
 
         &--active {
             color: $title-color;
@@ -96,6 +98,7 @@ body {
         height: 100%;
         transform: rotate(0deg);
         transition: transform 0.3s linear;
+        -webkit-transition: transform 0.3s linear;
 
         &--active {
             transform: rotate(180deg);
@@ -110,6 +113,7 @@ body {
         line-height: 1.5;
         padding-right: 24px; 
         transition: max-height 0.3s ease-out, margin 0.3s ease-out; 
+        -webkit-transition: max-height 0.3s ease-out, margin 0.3s ease-out;
 
         &--active {
             max-height: 3.2rem;
